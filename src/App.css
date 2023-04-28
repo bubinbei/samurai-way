@@ -9,36 +9,16 @@
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
 }
+
 .App-wrapper img{
   width: 500px;
   height: auto;
 }
 
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
-.header {
-  grid-area: h;
-  background-color: greenyellow;
-}
-.header img{
-  width: 70px;
-  height: auto;
-}
-
-.nav {
-  grid-area: n;
-  background-color: aqua;
-}
-
-.content {
-  grid-area: c;
-  background-color: coral;
-}
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

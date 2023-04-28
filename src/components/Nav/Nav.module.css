@@ -1,0 +1,14 @@
+.nav {
+  grid-area: n;
+  background-color: aqua;
+}
+
+.item a {
+  color:rgb(202, 67, 239);
+  text-decoration: none;      /* убирает подчёркеивание */     
+}
+
+.item a.activeLink {
+  color: rgb(31, 130, 11)
+
+}
